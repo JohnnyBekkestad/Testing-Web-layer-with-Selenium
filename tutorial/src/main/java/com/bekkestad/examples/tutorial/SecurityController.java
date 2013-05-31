@@ -24,7 +24,7 @@ public class SecurityController implements Serializable {
 	private Credentials credentials;
 	
 	@Inject 
-	private UserServiceImpl userService;
+	private UserService userService;
 	
 	public String login(){
 		
